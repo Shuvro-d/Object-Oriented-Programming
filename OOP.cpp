@@ -1,6 +1,20 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+Here we are introducing a new concept named abstraction.
+    Abstraction means having complex details but showing the easy front.
+    For example, suppose you just open the browser on your laptop and search for anything on the internet.
+But it took a developer a lot of work to design a website.
+Here we are creating an abstract class named AbstractEmployee which has a function for employees to give promotions based on
+many details.
+So any class can call this function and use the function to see whether employees can get promotions or not.
+It's like using the web browser on a laptop.
+But the main class which has signed this abstract class has to give the conditions based on which an employee get a promotion.
+It's the main class Employee. So here, the Employee class is the developer.
+*/
+
+
 
 class AbstractEmployee{
     virtual void AskForPromotion()=0;
